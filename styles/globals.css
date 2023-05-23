@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media only screen and (min-width: 768px) {
+    ev{
+        color: #E50075;
+        font-weight: 600;
+        background-image: url('../public/underline-img.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-y: 50px;
+        padding-bottom: 2rem;
+    }
+}
+
+ev{
+    color: #E50075;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+
+@layer utilities{
+    .iconPink {
+        filter: invert(12%) sepia(94%) saturate(6389%) hue-rotate(322deg) brightness(90%) contrast(102%);
+    }
+}
+
+.label-floating input:not(:placeholder-shown),
+.label-floating textarea:not(:placeholder-shown) {
+    padding-top: 1.4rem;
+}
+.label-floating input:not(:placeholder-shown) ~ label ,
+.label-floating textarea:focus:not(:placeholder-shown) ~ label,
+.label-floating textarea:not(:placeholder-shown) ~ label,
+.label-floating select:focus:not(:placeholder-shown) ~ label,
+.label-floating select:not(:placeholder-shown) ~ label{
+    font-size: 0.6rem;
+    transition: all 0.2s ease-in-out;
+    @apply -translate-y-6;
+    @apply opacity-50;
+}
+.label-floating textarea:focus:not(:placeholder-shown) ~ label,
+.label-floating textarea:not(:placeholder-shown) ~ label ,
+.label-floating select:focus:not(:placeholder-shown) ~ label,
+.label-floating select:not(:placeholder-shown) ~ label{
+     @apply top-6;
+ }

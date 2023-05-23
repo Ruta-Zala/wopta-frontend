@@ -1,0 +1,14 @@
+<svg width="28" height="32" viewBox="0 0 28 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1.12891 28.9331V3.06836C1.12891 1.96379 2.02434 1.06836 3.12891 1.06836H24.9999C26.1044 1.06836 26.9999 1.96379 26.9999 3.06836V28.9331C26.9999 30.0377 26.1044 30.9331 24.9999 30.9331H3.12891C2.02434 30.9331 1.12891 30.0377 1.12891 28.9331Z"
+          stroke="#2D2C4C" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+    <line x1="6" y1="6" x2="22" y2="6" stroke="#2D2C4C" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round"/>
+    <line x1="6" y1="11" x2="22" y2="11" stroke="#2D2C4C" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round"/>
+    <line x1="6" y1="16" x2="22" y2="16" stroke="#2D2C4C" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round"/>
+    <line x1="6" y1="21" x2="22" y2="21" stroke="#2D2C4C" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round"/>
+    <line x1="6" y1="26" x2="11" y2="26" stroke="#2D2C4C" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round"/>
+</svg>
